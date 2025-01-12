@@ -95,6 +95,10 @@
                 <button onclick="showSection('peti')">Mapa do Trabalho Infantil</button>
             </div>
             <button onclick="showSection('informativo')">Informativo Vigilância</button>
+            <button onclick="toggleSubmenu(this)">Fluxos</button>
+            <div class="submenu">
+                <button onclick="showSection('violencia')">Criança e Adolescente vítima de violência</button>
+            </div>
             <button onclick="showSection('outras')">Outras Informações</button>
         </nav>
         <main>
@@ -117,6 +121,11 @@
                 <h2>Informativos Vigilância</h2>
                 <p>Fique por dentro das atualizações sobre o SUAS através da Vigilância Socioassistencial</p>
                 <iframe src="informativo.html"></iframe>
+            </section>
+
+            <section id="violencia" class="hidden">
+                <h2>Fluxo de Atendimento à criança e Adolescênte Vítima ou Testemunha de Violência</h2>
+                <p>Confira o fluxo de atendimento dentro da Assistência Social em Taboão da Serra</p>
             </section>
             
             <section id="outras" class="hidden">
