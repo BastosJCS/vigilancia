@@ -99,7 +99,10 @@
             <div class="submenu">
                 <button onclick="showSection('violencia')">Criança e Adolescente vítima de violência</button>
             </div>
-            <button onclick="showSection('outras')">Outras Informações</button>
+            <button onclick="showSection(this)">Outras Informações</button>
+            <div class="submenu">
+                <button onclick="showSection('tipificacao')">Tipificões</button>
+            </div>
         </nav>
         <main>
             <section id="home">
@@ -128,9 +131,10 @@
                 <p>Confira o fluxo de atendimento dentro da Assistência Social em Taboão da Serra</p>
             </section>
             
-            <section id="outras" class="hidden">
-                <h2>Outras Informações</h2>
-                <p>Nesta seção, você encontra outras informações relevantes sobre a Vigilância Socioassistencial.</p>
+            <section id="tipificacao" class="hidden">
+                <h2>Tipificacções</h2>
+                <p>Aqui você irá encontrar as tipificações referentes ao SUAS - Sistema Único de Assistência Social</p>
+                <iframe src="tipificacao.html"></iframe>
             </section>
         </main>
     </div>
