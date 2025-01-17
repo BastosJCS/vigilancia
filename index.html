@@ -18,7 +18,6 @@
             color: white;
             padding: 10px;
             text-align: center;
-       
         }
         .container {
             display: flex;
@@ -81,6 +80,14 @@
             height: 500px;
             border: none;
         }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -105,7 +112,6 @@
                 <button onclick="showSection('tipificacao')">Tipificacões</button>
             </div>
             <button onclick="showSection('equipe')">Equipe Vigilância</button>
-
         </nav>
         <main>
             <section id="home">
@@ -145,6 +151,9 @@
             </section>
         </main>
     </div>
+    <footer>
+        &copy; 2025 Observatório Vigilância - Taboão da Serra | Todos os direitos reservados.
+    </footer>
     <script>
         function showSection(sectionId) {
             // Esconde todas as seções
@@ -159,7 +168,5 @@
             button.classList.toggle('active');
         }
     </script>
-
-
 </body>
 </html>
